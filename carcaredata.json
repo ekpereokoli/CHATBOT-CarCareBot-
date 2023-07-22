@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+      "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+      "context": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": ""
+    },
+    {
+      "tag": "jigibo",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+      "context": ""
+    },
+    {
+      "tag": "options",
+      "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+      "responses": ["I can guide you through basic car care routine", "Car maintenance checks"],
+      "context": ""
+    },
+    {
+      "tag": "engine_oil_change",
+      "patterns": ["When should I get an oil change?", "When is my car oil change overdue?", "after how many miles usage will I need to change my oil?", "how often do I need to change my oil?"],
+      "responses": ["For most vehicles, it's recommended to get an oil change every 5,000 to 7,500 miles or every six months, whichever comes first. Recommended time for oil change depends on several factors including vehicle age, type of oil and driving conditions. Modern lubricants especially synthetic oil can go up to 7500 or 10000 miles"],
+      "context": ""
+    },
+    {
+      "tag": "tire_rotation",
+      "patterns": ["How often should I rotate my tires?", "What is tire rotation"],
+      "responses": ["Tire rotation means periodically changing the position of each of the tires on your vehicle typically recommended every 5,000 to 7,000 miles to ensure even wear and extend tire life."],
+      "context": ""
+    },
+    {
+      "tag": "brake_maintenance",
+      "patterns": ["signs that my car needs brake change", "When to change the car brakes", "My brakes are squeaking, what should I do?"],
+      "responses": ["We advise scheduling a brake check with a certified mechanic to assess the condition of your braking system.", "Squeaking brakes may indicate it's time for a brake inspection."],
+      "context": ""
+    },
+    {
+      "tag": "battery_replacement",
+      "patterns": ["How long does a car battery last?", "What can I do if my battery is weak?"],
+      "responses": ["The lifespan of a car battery is typically around 3 to 5 years. It's a good idea to have your battery tested annually and replaced if it shows signs of weakness."],
+      "context": ""
+    },
+    {
+      "tag": "check_engine_light",
+      "patterns": ["My check engine light is on. What does it mean?", "My check engine light won't go off. Why?", "Check engine light is on, what do I do?"],
+      "responses": ["The check engine light indicates a potential issue with your vehicle. It's best to have the onboard diagnostics system scanned by a mechanic to identify the specific problem."],
+      "context": ""
+    },
+    {
+      "tag": "air_filters_replacement",
+      "patterns": ["When should I change my air filter?", "How many miles should I use my air filter?", "How often can I change my air filter in a dusty or polluted environment?"],
+      "responses": ["Air filters should typically be replaced every 12,000 to 15,000 miles, or more frequently if you drive in dusty or polluted environments."],
+      "context": ""
+    },
+    {
+      "tag": "car_fluid_checks",
+      "patterns": ["Car essential fluids", "Importance of car fluids", "How often should I check car fluids?"],
+      "responses": ["Monitoring and topping up essential fluids regularly like coolant, transmission fluid, power steering fluid, and windshield washer fluid is crucial for its performance and longevity."],
+      "context": ""
+    },
+    {
+      "tag": "car_maintenance_schedule",
+      "patterns": ["Can you provide a general maintenance schedule for my car?", "Any recommendations for my vehicle's maintenance schedule"],
+      "responses": ["Sure! For routine maintenance, we recommend following your vehicle manufacturer's maintenance schedule, which can be found in your owner's manual."],
+      "context": ""
+    },
+    {
+      "tag": "other_car_maintenance_check",
+      "patterns": ["Other car maintenance check"],
+      "responses": ["Fuel System Maintenance,Air Conditioning Service,Wiper Blade Replacement,Engine Performance"],
+      "context": ""
+    }
+  ]
+}
